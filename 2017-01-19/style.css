@@ -16,7 +16,56 @@
 .content {
   margin: 0 auto;
   margin-top: 3rem;
-  width: 60rem;
+  max-width: 50rem;
   font-size: 1.4rem;
   font-family: 'Raleway', sans-serif;
+}
+
+.encounter {
+  padding: 1rem;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: 2rem;
+  position: relative;
+}
+
+.image-pane {
+  display: inline-block;
+}
+
+.encounter-content {
+  position: absolute;
+  display: inline-block;
+  width: 29rem;
+  vertical-align: top;
+  top: 0;
+  bottom: 0;
+}
+
+.encounter-header {
+  text-align: center;
+  font-weight: 900;
+}
+
+.encounter-details {
+  padding: 1rem;
+}
+
+.encounter-results {
+  padding: 1rem;
+  width: 29rem;
+  position: absolute;
+  bottom: 0;
+}
+
+.results {
+  text-decoration: underline;
+}
+
+.image {
+  width: 20rem;
+}
+
+.appendix {
+  padding-top: 2rem;
 }
