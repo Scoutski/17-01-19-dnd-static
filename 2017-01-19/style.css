@@ -22,7 +22,6 @@
 }
 
 .encounter {
-  padding: 1rem;
   display: inline-block;
   width: 100%;
   margin-bottom: 2rem;
@@ -48,11 +47,9 @@
 }
 
 .encounter-details {
-  padding: 1rem;
 }
 
 .encounter-results {
-  padding: 1rem;
   width: 29rem;
   position: absolute;
   bottom: 0;
@@ -64,6 +61,37 @@
 
 .image {
   width: 20rem;
+}
+
+.item {
+  display: inline-block;
+  position: relative;
+}
+
+.item-image {
+  height: 8rem;
+}
+
+.item-description {
+  display: inline-block;
+  vertical-align: top;
+  line-height: 8rem;
+}
+
+.conversation-container {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  padding-left: 8rem;
+  padding-right: 8rem;
+}
+
+.conversation {
+  line-height: .7rem;
+  font-style: italic;
+}
+
+.right {
+  text-align: right;
 }
 
 .appendix {
